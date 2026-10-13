@@ -1,0 +1,22 @@
+{
+  "sourceBaseline": "6e077b344540230fbf9c316644b435ebede6e5c0",
+  "commands": {
+    "npm run install:ci": "passed frozen baseline install",
+    "npm test": "166 passed,0 failed",
+    "npm run typecheck": "passed",
+    "npm run lint": "passed no findings",
+    "python -m unittest discover -s integrations/scanner -p test_*.py": "3 passed",
+    "drizzle-kit generate": "No schema changes, nothing to migrate",
+    "productionBuild": "passed native build-site.mjs final build"
+  },
+  "externalAcceptance": {
+    "cashfreeLive": "not run:credentials unavailable",
+    "realClamAV": "not run:engine not provisioned",
+    "browserE2E": "not run:supported browser control unavailable",
+    "liveOTP": "not sent/not verified",
+    "productionRestore": "not run;synthetic SQLite restoration passed",
+    "erpChanges": "none",
+    "customerDomainAttachment": "blocked provider account access"
+  },
+  "dependencyAudit": "1 high braces advisory, no listed patch"
+}

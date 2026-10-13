@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-13",
+  "source": "895d70502dee7d0cd552ae6718fc5892718bb3ba",
+  "savedVersion": "appgprj_6acc998779048191a144f8c871a17577~appgver_8baa32ea21d08191857c6744c7d3349f",
+  "versionNumber": 13,
+  "deployment": {
+    "id": "appgdep_6acdb93eee3c81919fd73495f229fc42",
+    "project_id": "appgprj_6acc998779048191a144f8c871a17577",
+    "title": "SohanSoft HRMS",
+    "version_id": "appgprj_6acc998779048191a144f8c871a17577~appgver_8baa32ea21d08191857c6744c7d3349f",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://sohansoft-hrms.info756362.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6acc998779048191a144f8c871a17577",
+    "failure_message": null,
+    "env_set_revision": 9,
+    "updated_at": "2026-10-13T04:53:42.753801+00:00"
+  },
+  "productionHostname": "https://hrms.sohansoft.in",
+  "baseline": "89faff7ec5af7dafcf9f16286d4966a4f0d93327",
+  "tests": {
+    "javascript": 173,
+    "scannerPython": 3,
+    "typecheck": "passed",
+    "lint": "passed",
+    "dbGenerate": "passed; no changes; 48 tables",
+    "npmBuild": "passed",
+    "hostingBuild": "passed",
+    "browser": "not run; supported managed browser unavailable",
+    "viewportWidthsTested": []
+  },
+  "migrationsAdded": [],
+  "apiContractsChanged": [],
+  "runtimeConfigurationChanged": [
+    "HRMS_DEPLOYMENT_VERSION only"
+  ],
+  "ERPChanges": [],
+  "securityPreserved": [
+    "Authentication",
+    "server tenant permissions",
+    "host-only cookies",
+    "CSRF",
+    "private document quarantine",
+    "provider state machines"
+  ]
+}

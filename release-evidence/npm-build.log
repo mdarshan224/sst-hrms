@@ -1,0 +1,81 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sohansoft-hrms@0.1.0 build
+> node scripts/run-framework.mjs build
+
+/usr/bin/timeout
+Running bounded vinext build...
+
+  vinext build  (Vite 8.0.16)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 315 modules transformed.
+rendering chunks...
+✓ built in 935ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 254 modules transformed.
+rendering chunks...
+✓ built in 395ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 312 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 787ms
+[4/5] build client environment...
+[2Ktransforming...✓ 1999 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 1.48s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 256 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 518ms
+[0m
+  Route (app)
+  ┌ ƒ /                               
+  ├ ƒ /:slug                          
+  ├ ƒ /:slug/:mode                    
+  ├ ƒ /:slug/:mode/login              
+  ├ ƒ /:slug/careers                  
+  ├ ƒ /:slug/hr/payroll               
+  ├ ƒ /admin                          
+  ├ ƒ /admin/login                    
+  ├ λ /api/auth                       
+  ├ λ /api/branding                   
+  ├ λ /api/careers                    
+  ├ λ /api/documents                  
+  ├ λ /api/documents/scan             
+  ├ λ /api/domains                    
+  ├ λ /api/hrms                       
+  ├ λ /api/operations                 
+  ├ λ /api/verification               
+  ├ λ /api/verification/hosted        
+  ├ λ /api/verification/webhooks/:mode
+  ├ λ /api/workflow                   
+  ├ ƒ /careers                        
+  ├ ƒ /company/:slug                  
+  ├ ƒ /company/:slug/:mode            
+  ├ ƒ /employee                       
+  ├ ƒ /employee/login                 
+  ├ ƒ /hr                             
+  ├ ƒ /hr/login                       
+  ├ ƒ /hr/payroll                     
+  ├ ƒ /join/:token                    
+  ├ ƒ /login                          
+  ├ ƒ /manager                        
+  ├ ƒ /manager/login                  
+  ├ ƒ /onboarding                     
+  ├ ƒ /recruiter                      
+  ├ ƒ /recruiter/login                
+  ├ ƒ /super-admin                    
+  ├ ƒ /verification/return            
+  └ ƒ /workspace                      
+
+  λ API  ƒ Dynamic
+
+  Build complete. Run `vinext start` to start the production server.
+

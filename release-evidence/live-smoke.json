@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://hrms.sohansoft.in/login",
+    "status": 200,
+    "location": null,
+    "cacheControl": "no-store",
+    "hsts": "max-age=31536000",
+    "title": "Sohan Soft Tech HRMS | People &amp; Workforce Platform",
+    "invitationUnavailable": null
+  },
+  {
+    "url": "https://hrms.sohansoft.in/super-admin",
+    "status": 307,
+    "location": "/login?next=%2Fsuper-admin",
+    "cacheControl": null,
+    "hsts": "max-age=31536000",
+    "title": null,
+    "invitationUnavailable": null
+  },
+  {
+    "url": "https://hrms.sohansoft.in/api/operations",
+    "status": 401,
+    "location": null,
+    "cacheControl": "no-store",
+    "hsts": "max-age=31536000",
+    "title": null,
+    "invitationUnavailable": null
+  },
+  {
+    "url": "https://hrms.sohansoft.in/api/workflow?view=mine",
+    "status": 401,
+    "location": null,
+    "cacheControl": "no-store",
+    "hsts": "max-age=31536000",
+    "title": null,
+    "invitationUnavailable": null
+  },
+  {
+    "url": "https://hrms.sohansoft.in/join/invalid-token",
+    "status": 200,
+    "location": null,
+    "cacheControl": "no-store",
+    "hsts": "max-age=31536000",
+    "title": "Sohan Soft Tech HRMS | People &amp; Workforce Platform",
+    "invitationUnavailable": true
+  },
+  {
+    "url": "https://erp.sohansoft.in/",
+    "status": 200,
+    "location": null,
+    "cacheControl": "no-store, must-revalidate",
+    "hsts": null,
+    "title": "Sohan Soft Tech ERP | A better school day starts here",
+    "invitationUnavailable": null
+  }
+]
